@@ -30,7 +30,7 @@ const NameForm = () => {
             <label htmlFor="">Nom</label>
             <input type="text" name="inputText" id="inputTextId" onChange={copieTexteEvent} />
             <input type="color" name="colorInput" id="colorInput" onChange={getColorEvent} />
-            <p>{upperCaseText}</p>
+            <p style={{ color: colorInput}}>{upperCaseText}</p>
             <p>{colorInput}</p>
         </div>
     );

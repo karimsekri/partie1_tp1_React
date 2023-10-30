@@ -3,6 +3,7 @@
 import HelloWorld from './helloWorld.tsx'
 import Counter from './exercice_2.tsx'
 import List from './exercice_3.tsx'
+import NameForm from './NameForm.tsx'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
      <HelloWorld />
      <Counter />
      <List/>
+     <NameForm />
     </>
   )
 }
